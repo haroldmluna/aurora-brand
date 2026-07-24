@@ -17,9 +17,9 @@
         left: 0;
         height: 68px;
         width: 100%;
-        background: #fff;
+        background: #05060A;
         z-index: -1;
-        border-bottom: 2px solid $headerColor;
+        border-bottom: 2px solid #2B3040;
     }
 
     &.sticky {
@@ -79,21 +79,21 @@
         overflow-y: auto;
         margin-top: 13px;
         max-height: calc(100vh - 100px);
-        border-bottom: 2px solid $headerColor;
+        border-bottom: 2px solid #2B3040;
 
         &.collapsing {
             overflow: hidden;
         }
 
         &-list {
-            background: #fff;
-            border: 2px solid $headerColor;
+            background: $lightgray;
+            border: 2px solid #2B3040;
             border-radius: 2px;
             font-family: $headerFont;
             line-height: 1;
 
             &_item {
-                border-bottom: 2px solid $headerColor;
+                border-bottom: 2px solid #2B3040;
 
                 .nav-item {
                     padding: 20px;
@@ -167,8 +167,8 @@
 @media screen and (min-width: 991.98px) {
     .header {
         height: 103px;
-        background: #fff;
-        border-bottom: 2px solid $headerColor;
+        background: #05060A;
+        border-bottom: 2px solid #2B3040;
         padding: 0;
 
         .container {
@@ -283,7 +283,7 @@
                         }
 
                         &-menu {
-                            border: 2px solid $headerColor;
+                            border: 2px solid #2B3040;
                             border-top: none;
                             position: absolute;
                             z-index: 100;
@@ -305,7 +305,7 @@
                         }
 
                         &-list {
-                            background: #fff;
+                            background: $lightgray;
                             margin: 0;
 
                             .list-item {
@@ -318,7 +318,7 @@
 
                             .nav-item {
                                 padding: 20px 30px;
-                                border-bottom: 2px solid $headerColor;
+                                border-bottom: 2px solid #2B3040;
 
                                 &:hover, &:focus,
                                 &.current {

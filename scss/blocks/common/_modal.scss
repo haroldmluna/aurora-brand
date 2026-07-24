@@ -8,13 +8,13 @@
 .signup {
 
     &_container {
-        background: #fff;
+        background: #0F1117;
 
         .swal2-close {
             position: absolute;
             width: 28px;
             height: 28px;
-            background: #fff;
+            background: #0F1117;
             right: 0;
             top: 20px;
             border: $border;
@@ -92,7 +92,7 @@
 
 .alert {
     &_popup {
-        background: #fff;
+        background: #0F1117;
         box-shadow: $shadow;
         border-radius: 2px;
         min-width: 280px;

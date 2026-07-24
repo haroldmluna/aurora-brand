@@ -92,8 +92,8 @@ h6, .h6 {
         cursor: pointer;
 
         &:hover, &-active {
-            background: #fff;
-            border-color: #fff;
+            background: $accent;
+            border-color: $accent;
         }
     }
 }
@@ -160,7 +160,7 @@ h6, .h6 {
 
     &--white {
         @include neonEl;
-        background: #fff;
+        background: #0F1117;
 
         &:hover, &:focus {
             box-shadow: 6px 6px 0 $headerColor;
@@ -216,7 +216,7 @@ input {
             width: 24px;
             height: 24px;
             border: $border;
-            background: #fff;
+            background: #0F1117;
             overflow: hidden;
         }
 
@@ -246,7 +246,7 @@ input {
     height: 48px;
     padding: 11px 16px;
     box-shadow: 0 0 0 transparent;
-    background: #fff;
+    background: #0F1117;
 
     &::placeholder {
         color: #919191;
@@ -516,7 +516,7 @@ input {
     }
 
     .video_frame {
-        background: #fff;
+        background: #0F1117;
         padding: 30px;
         min-height: 300px;
         position: relative;
@@ -783,12 +783,12 @@ input[type="search"]::-webkit-search-results-decoration {
     .full-image img {
         padding: 30px;
         height: 90%;
-        background: #fff;
+        background: #0F1117;
         box-shadow: $shadow;
     }
 
     button {
-        background: #fff;
+        background: #0F1117;
         border: $border;
         box-shadow: $shadow;
         border-radius: 2px;
