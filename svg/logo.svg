@@ -1,28 +1,19 @@
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-	 x="0px" y="0px" width="100%" height="100%"
-	 viewBox="0 0 605 629" style="enable-background:new 0 0 605 629;" xml:space="preserve">
-<g>
-	<g>
-		<g>
-			<path clip-rule="evenodd" fill-rule="evenodd" fill="#7B61FF" d="M469.4,401.9L204.8,562.6l97.5,55.7l264.6-161.9v-124l-97.5-56.9V401.9z M422.5,104.6L132.6,262.8v-48.1
-				l262-154.3L297.2,4.7l-262,153.1l-1.3,270.7l289.9-159.4l1.3,53.1L55.4,477.8l97.5,55.7l268.4-155.6L422.5,104.6z M469.4,103.4
-				l-1.3,115.1l98.7,55.7V160.3L469.4,103.4z"/>
-		</g>
-		<g>
-			<path fill="none" stroke="#00D4FF" stroke-miterlimit="100" d="M469.4,401.9L204.8,562.6l97.5,55.7l264.6-161.9v-124l-97.5-56.9V401.9z M422.5,104.6L132.6,262.8v-48.1
-				l262-154.3L297.2,4.7l-262,153.1l-1.3,270.7l289.9-159.4l1.3,53.1L55.4,477.8l97.5,55.7l268.4-155.6L422.5,104.6z M469.4,103.4
-				l-1.3,115.1l98.7,55.7V160.3L469.4,103.4z"/>
-		</g>
-	</g>
-</g>
-<g>
-	<g>
-		<g>
-			<polygon clip-rule="evenodd" fill-rule="evenodd" fill="#00D4FF" points="469.4,103.4 468.1,218.5 566.8,274.1 566.8,160.3 			"/>
-		</g>
-		<g>
-			<polygon fill="none" stroke="#00D4FF" stroke-miterlimit="100" points="469.4,103.4 468.1,218.5 566.8,274.1 566.8,160.3 			"/>
-		</g>
-	</g>
-</g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="100%" height="100%">
+  <defs>
+    <!-- Primary Brand Gradient -->
+    <linearGradient id="aurora-icon-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#9B4DFF" />
+      <stop offset="50%" stop-color="#7B61FF" />
+      <stop offset="100%" stop-color="#00D4FF" />
+    </linearGradient>
+  </defs>
+  
+  <g transform="translate(60, 60)">
+    <!-- Glowing Arc (Circle with a gap at the bottom) -->
+    <path d="M -32, 38 A 50,50 0 1,1 32, 38" fill="none" stroke="url(#aurora-icon-grad)" stroke-width="7" stroke-linecap="round" />
+    
+    <!-- Stylized Geometric 'A' -->
+    <path d="M -20, 25 L 0, -15 L 20, 25" fill="none" stroke="url(#aurora-icon-grad)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M -9, 5 L 9, 5" fill="none" stroke="url(#aurora-icon-grad)" stroke-width="5" stroke-linecap="round" />
+  </g>
 </svg>
